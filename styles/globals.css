@@ -263,13 +263,23 @@ span.text-red {
 }
 .cart-wrapper {
   width: 100vw;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   position: fixed;
   right: 0;
   top: 0;
   z-index: 100;
   /* will-change: transform; */
   transition: all 1s ease-in-out;
+}
+.cart-wrapper-bg {
+  width: 100vw;
+  height: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  /* will-change: transform; */
 }
 .cart-container {
   height: 100vh;
