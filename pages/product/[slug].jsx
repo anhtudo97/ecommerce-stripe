@@ -6,7 +6,7 @@ import {
   AiOutlineStar,
 } from "react-icons/ai";
 
-import { client, urlFor } from "../../lib/client";
+import { client, urlFor } from "../../libs/client";
 import { Product } from "../../components";
 import { useStateContext } from "../../context/StateContext";
 
@@ -139,4 +139,4 @@ export const getStaticProps = async ({ params: { slug } }) => {
   };
 };
 
-export default ProductDetail;
+export default ProductDetails;
